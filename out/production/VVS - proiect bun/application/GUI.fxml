@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="416.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vvs.HelloController">
+   <children>
+      <Button fx:id="start" layoutX="108.0" layoutY="178.0" mnemonicParsing="false" onAction="#onStartButtonClick" text="START">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="stop" layoutX="243.0" layoutY="178.0" mnemonicParsing="false" onAction="#onStopButtonClick" text="STOP">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Text layoutX="71.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Server Status : " wrappingWidth="119.96875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Port : " wrappingWidth="119.96875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="MaintenanceCheck" layoutX="79.0" layoutY="125.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="220.0" text="Maintenance ON">
+         <font>
+            <Font size="20.0" />
+         </font></CheckBox>
+      <TextField fx:id="statusText" layoutX="196.0" layoutY="43.0" promptText="Stopped" />
+      <TextField fx:id="portText" layoutX="196.0" layoutY="82.0" promptText="0000" />
+   </children>
+</AnchorPane>

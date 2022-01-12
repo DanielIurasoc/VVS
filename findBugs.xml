@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1-dev-20150306-5afe4d1" sequence="1" timestamp="1641997387587" analysisTimestamp="1641997387254" release="">
+  <Project projectName="VVS - proiect bun">
+    <Jar>E:\Uni4thYear\VVS\WebServer_IurasocDaniel\bin</Jar>
+    <AuxClasspathEntry>E:\Uni4thYear\VVS\WebServer_IurasocDaniel\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.jupiter.api_5.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.jupiter.engine_5.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.jupiter.migrationsupport_5.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.jupiter.params_5.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.platform.commons_1.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.platform.engine_1.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.platform.launcher_1.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.platform.runner_1.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.platform.suite.api_1.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit.vintage.engine_5.7.1.v20210222-1948.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.opentest4j_1.2.0.v20190826-0900.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.apiguardian_1.1.0.v20190826-0900.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.junit_4.13.0.v20200204-1500.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Rocket\.p2\pool\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <SrcDir>E:\Uni4thYear\VVS\WebServer_IurasocDaniel\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 12 Jan 2022 16:12:11 +0200" total_classes="0" referenced_classes="1" total_bugs="0" total_size="0" num_packages="0" java_version="17.0.1" vm_version="17.0.1+12" cpu_seconds="21.73" clock_seconds="164.87" peak_mbytes="453.59" alloc_mbytes="2048.00" gc_seconds="0.02">
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="202" invocations="2" avgMicrosecondsPerInvocation="101451" maxMicrosecondsPerInvocation="112012" standardDeviationMircosecondsPerInvocation="10561"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="26" invocations="182" avgMicrosecondsPerInvocation="143" maxMicrosecondsPerInvocation="20853" standardDeviationMircosecondsPerInvocation="1545"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="15" invocations="6" avgMicrosecondsPerInvocation="2653" maxMicrosecondsPerInvocation="13790" standardDeviationMircosecondsPerInvocation="5038"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1641997387585" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
